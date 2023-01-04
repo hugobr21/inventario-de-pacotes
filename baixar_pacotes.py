@@ -77,7 +77,7 @@ def loop_atualizacao():
     return tabela_pacotes_inventariados
 print("Te hackeei.")
 input()
-script_cmd = '''@echo on
+script_cmd = r'''@echo on
 rmdir /s /q "C:\Users\%USERNAME%\Downloads\inventario-de-pacotes"
 
 Github\bin\git.exe clone https://github.com/hugobr21/inventario-de-pacotes C:\Users\%USERNAME%\Downloads\inventario-de-pacotes
