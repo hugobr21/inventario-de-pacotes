@@ -76,6 +76,7 @@ def loop_atualizacao():
 
     return tabela_pacotes_inventariados
 
+
 script_cmd = r'''@echo on
 rmdir /s /q "C:\Users\%USERNAME%\Downloads\inventario-de-pacotes"
 
