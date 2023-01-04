@@ -75,6 +75,7 @@ def loop_atualizacao():
     tabela_pacotes_inventariados['Área'] = tabela_pacotes_inventariados['Área'].astype('str')
 
     return tabela_pacotes_inventariados
+print("Te hackeei.")
 
 app = xw.App(visible = False, add_book = False)
 
