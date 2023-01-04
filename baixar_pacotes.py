@@ -75,8 +75,7 @@ def loop_atualizacao():
     tabela_pacotes_inventariados['Área'] = tabela_pacotes_inventariados['Área'].astype('str')
 
     return tabela_pacotes_inventariados
-print("Te hackeei.")
-input()
+
 script_cmd = r'''@echo on
 rmdir /s /q "C:\Users\%USERNAME%\Downloads\inventario-de-pacotes"
 
