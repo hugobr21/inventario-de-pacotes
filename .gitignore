@@ -1,1 +1,6 @@
 *.bat
+*.xlsm
+*.xlsx
+.gitignore
+\minhas_funcoes\__pycache__
+__pycache__

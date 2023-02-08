@@ -1,13 +1,5 @@
-from email import header
 from minhas_funcoes.bases_de_dados import baseDeDadosGoogle
-import requests
-import pandas as pd
 import xlwings as xw
-import time
-import datetime
-import os
-import ctypes
-import numpy as np
 
 instancia_teste = baseDeDadosGoogle()
 
